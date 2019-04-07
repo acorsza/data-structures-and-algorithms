@@ -35,9 +35,9 @@ public class Solution {
     public static void main(String args[] ) throws Exception {
         
         HashMap<String, Double> bills = new HashMap<String, Double>();
-        bills.put("Felipe", 45.00);
-        bills.put("Aderlei", 25.00);
-        bills.put("Dave", 20.00);
+        bills.put("Person1", 45.00);
+        bills.put("Person2", 25.00);
+        bills.put("Person3", 20.00);
         
         Double media = retornaDivisaoIgual(bills);
         HashMap<String, Double> outstandings = calculaOutstanding(bills, media);
